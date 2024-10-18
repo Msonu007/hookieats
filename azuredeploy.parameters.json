@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.1",
+    "parameters": {
+        "webAppName": {
+            "value": "TomatoWebApp"
+        },
+        "sku": {
+            "value": "B1"
+        },
+        "linuxFxVersion": {
+            "value": "PYTHON|3.10"
+        },
+        "repoUrl": {
+            "value": "https://github.com/NikhilGaddam/Tomato-Web.git"
+        },
+        "repoBranch": {
+            "value": "main"
+        }
+    }
+}
